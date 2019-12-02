@@ -45,5 +45,4 @@ keyword=driver.find_element_by_class_name("_585_")
 keyword.submit()
 
 # 사진 카테고리로 가기
-photo_link =[]
 photo=driver.find_element_by_xpath('//*[@id="u_fetchstream_2_1"]/div/div/div/ul/li[4]/a').click()
