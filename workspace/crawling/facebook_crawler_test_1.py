@@ -17,8 +17,8 @@ driver = webdriver.Chrome("c:/data/chromedriver.exe")
 driver.implicitly_wait(3)
 driver.get(url)    
 
-user = '-' # 아이디를 입력하세요
-mypass = '-' #비밀번호를 입력하세요
+user = 'gjdnwlsdl@naver.com' # 아이디를 입력하세요
+mypass = '' #비밀번호를 입력하세요
 
 #아이디 입력하는 곳
 inputid = driver.find_element_by_name("email")
@@ -31,8 +31,8 @@ inputpw.clear()
 inputpw.send_keys(mypass)
 
 # 로그인버튼
-loginbn=driver.find_element_by_name("login")
-#loginbn=driver.find_element_by_id("loginbutton") 사용환경마다 
+#loginbn=driver.find_element_by_name("login")
+loginbn=driver.find_element_by_id("loginbutton") #사용환경마다 
 loginbn.submit()
 
 # 키워드 입력
@@ -45,7 +45,5 @@ keyword=driver.find_element_by_class_name("_585_")
 keyword.submit()
 
 # 사진 카테고리로 가기
-#photo=driver.find_element_by_class_name("")
-#photo.submit()
-from selenium.webdriver.support.ui import WebDriverWait
-WebDriverWait(driver,3).until(EC.presence_of_element_located((By.XPATH,'//*[@id="u_fetchstream_7_1"]/div/div/div/ul/li[4]/a/div/div[1]'))).click()
+photo_link =[]
+photo=driver.find_element_by_xpath('//*[@id="u_fetchstream_2_1"]/div/div/div/ul/li[4]/a').click()
