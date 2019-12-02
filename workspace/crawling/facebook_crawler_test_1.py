@@ -32,6 +32,7 @@ inputpw.send_keys(mypass)
 
 # 로그인버튼
 loginbn=driver.find_element_by_name("login")
+#loginbn=driver.find_element_by_id("loginbutton") 사용환경마다 
 loginbn.submit()
 
 # 키워드 입력
