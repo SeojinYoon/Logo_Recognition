@@ -70,7 +70,7 @@ len(params2)
 #사진 데이터 저장   
 x = 1
 for i in params2:
-    req.urlretrieve(i,"C:/data/TEAM_PROJECT/data/CASS FRESH/google_cass"+str(x)+".png")
+    req.urlretrieve(i,"C:/data/TEAM_PROJECT/data/CASS_FRESH/google_cass"+str(x)+".png")
     x += 1 
 
 
