@@ -45,5 +45,7 @@ keyword=driver.find_element_by_class_name("_585_")
 keyword.submit()
 
 # 사진 카테고리로 가기
-photo=driver.find_element_by_class_name("")
-photo.submit()
+#photo=driver.find_element_by_class_name("")
+#photo.submit()
+from selenium.webdriver.support.ui import WebDriverWait
+WebDriverWait(driver,3).until(EC.presence_of_element_located((By.XPATH,'//*[@id="u_fetchstream_7_1"]/div/div/div/ul/li[4]/a/div/div[1]'))).click()
