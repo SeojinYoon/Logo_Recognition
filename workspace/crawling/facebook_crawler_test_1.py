@@ -17,8 +17,8 @@ driver = webdriver.Chrome("c:/data/chromedriver.exe")
 driver.implicitly_wait(3)
 driver.get(url)    
 
-user = 'gjdnwlsdl@naver.com' # 아이디를 입력하세요
-mypass = '' #비밀번호를 입력하세요
+user = '_' # 아이디를 입력하세요
+mypass = '_' #비밀번호를 입력하세요
 
 #아이디 입력하는 곳
 inputid = driver.find_element_by_name("email")
@@ -45,5 +45,4 @@ keyword=driver.find_element_by_class_name("_585_")
 keyword.submit()
 
 # 사진 카테고리로 가기
-photo_link =[]
 photo=driver.find_element_by_xpath('//*[@id="u_fetchstream_2_1"]/div/div/div/ul/li[4]/a').click()
