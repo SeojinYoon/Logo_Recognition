@@ -46,3 +46,9 @@ keyword.submit()
 
 # 사진 카테고리로 가기
 photo=driver.find_element_by_xpath('//*[@id="u_fetchstream_2_1"]/div/div/div/ul/li[4]/a').click()
+
+## 날짜 선택
+# 2018년 클릭하기
+bn2018 = driver.find_element_by_xpath('//*[@id="u_ps_fetchstream_4_0_i"]/a[3]/label/span').click()
+month = driver.find_element_by_xpath('//*[@id="u_ps_fetchstream_5_0_m"]').click()
+july = driver.find_element_by_xpath('//*[@id="u_ps_fetchstream_5_0_9"]/div/ul/li[8]/a/span/span').click()
