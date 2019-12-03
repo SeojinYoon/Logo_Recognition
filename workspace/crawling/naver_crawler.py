@@ -56,11 +56,118 @@ for i in soup.select('img'):
 len(params)
 
 
-#사진데이터 저장 코드 수정
+#사진데이터 저장 코드 수정/추가 -> 자동화필요
 #경로(dir) 맨끝에 / 붙여줄것
+x = 1
+for i in params:
+    dir="C:/Users/stu20/Documents/Logo_Recognition/data/CASS_FRESH/"
+    name="naver_cass_fresh"
+    req.urlretrieve(i,dir+name+str(x)+'.png')
+    x += 1 
+    
 x = 1
 for i in params:
     dir="C:/Users/stu20/Documents/Logo_Recognition/data/CASS_LIGHT/"
     name="naver_cass_light"
+    req.urlretrieve(i,dir+name+str(x)+'.png')
+    x += 1 
+    
+x = 1
+for i in params:
+    dir="C:/Users/stu20/Documents/Logo_Recognition/data/HEINEKEN/"
+    name="naver_heineken"
+    req.urlretrieve(i,dir+name+str(x)+'.png')
+    x += 1 
+    
+x = 1
+for i in params:
+    dir="C:/Users/stu20/Documents/Logo_Recognition/data/HITE/"
+    name="naver_hite"
+    req.urlretrieve(i,dir+name+str(x)+'.png')
+    x += 1 
+    
+x = 1
+for i in params:
+    dir="C:/Users/stu20/Documents/Logo_Recognition/data/HOEGAARDEN/"
+    name="naver_hoegaarden"
+    req.urlretrieve(i,dir+name+str(x)+'.png')
+    x += 1 
+    
+x = 1
+for i in params:
+    dir="C:/Users/stu20/Documents/Logo_Recognition/data/ASAHI/"
+    name="naver_asahi"
+    req.urlretrieve(i,dir+name+str(x)+'.png')
+    x += 1 
+    
+x = 1
+for i in params:
+    dir="C:/Users/stu20/Documents/Logo_Recognition/data/BUDWEISSER/"
+    name="naver_budweisser"
+    req.urlretrieve(i,dir+name+str(x)+'.png')
+    x += 1
+    
+x = 1
+for i in params:
+    dir="C:/Users/stu20/Documents/Logo_Recognition/data/KIRIN_ICHIBAN/"
+    name="naver_kirin_ichiban"
+    req.urlretrieve(i,dir+name+str(x)+'.png')
+    x += 1
+    
+x = 1
+for i in params:
+    dir="C:/Users/stu20/Documents/Logo_Recognition/data/KLOUD/"
+    name="naver_kloud"
+    req.urlretrieve(i,dir+name+str(x)+'.png')
+    x += 1
+    
+x = 1
+for i in params:
+    dir="C:/Users/stu20/Documents/Logo_Recognition/data/KOZEL/"
+    name="naver_kozel"
+    req.urlretrieve(i,dir+name+str(x)+'.png')
+    x += 1    
+
+
+x = 1
+for i in params:
+    dir="C:/Users/stu20/Documents/Logo_Recognition/data/KRONENBOURG/"
+    name="naver_kronenbourg"
+    req.urlretrieve(i,dir+name+str(x)+'.png')
+    x += 1    
+    
+x = 1
+for i in params:
+    dir="C:/Users/stu20/Documents/Logo_Recognition/data/PILSNER_URQUELL/"
+    name="naver_pilsner_urquell"
+    req.urlretrieve(i,dir+name+str(x)+'.png')
+    x += 1    
+    
+x = 1
+for i in params:
+    dir="C:/Users/stu20/Documents/Logo_Recognition/data/SAPPORO/"
+    name="naver_sapporo"
+    req.urlretrieve(i,dir+name+str(x)+'.png')
+    x += 1   
+
+x = 1
+for i in params:
+    dir="C:/Users/stu20/Documents/Logo_Recognition/data/STELLA_ARTOIS/"
+    name="naver_stella_artois"
+    req.urlretrieve(i,dir+name+str(x)+'.png')
+    x += 1 
+    
+x = 1
+for i in params:
+    dir="C:/Users/stu20/Documents/Logo_Recognition/data/TERRA/"
+    name="naver_terra"
+    req.urlretrieve(i,dir+name+str(x)+'.png')
+    x += 1 
+    
+    
+x = 1
+for i in params:
+    dir="C:/Users/stu20/Documents/Logo_Recognition/data/TSINGTAO/"
+    name="naver_tsingtao"
     req.urlretrieve(i,dir+name+str(x)+'.png')
     x += 1 
