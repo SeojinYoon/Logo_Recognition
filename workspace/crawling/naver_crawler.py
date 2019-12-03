@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-#GOOGLE
+#NAVER
 url = "https://search.naver.com/search.naver?sm=tab_sly.hst&where=image&query=&oquery=%EC%B9%B4%EC%8A%A4+%ED%94%84%EB%A0%88%EC%89%AC&tqi=UPgVWdp0YiRss4KGxfCsssssstR-161930"
 driver = webdriver.Chrome("c:/data/chromedriVer.exe")
 driver.get(url)
