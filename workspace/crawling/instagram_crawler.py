@@ -34,7 +34,7 @@ driver.find_element_by_xpath("//*[@id='react-root']/section/main/div/article/div
 #비번 입력
 e = driver.find_element_by_xpath("//*[@id='react-root']/section/main/div/article/div/div[1]/div/form/div[3]/div/label/input")
 
-e.send_keys("")
+e.send_keys("zeze703182")
 
 #엔터 입력
 e.submit()
@@ -55,7 +55,7 @@ for i in range(1,1001):
     time_t.append(soup.find("time",class_='_1o9PC Nzb55')['datetime'])
 
     driver.find_element_by_xpath("/html/body/div[3]/div[1]/div/div/a[2]").click()
-    time.sleep(1)
+    time.sleep(2)
 
 
 
