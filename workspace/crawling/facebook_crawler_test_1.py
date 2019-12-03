@@ -11,7 +11,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-
+# xpath로 되어있는 부분은 안되는 경우 손으로 클릭해주세요.(접속 할 때마다 xpath변경됨)
 
 url = 'https://www.facebook.com/'
 driver = webdriver.Chrome("c:/data/chromedriver.exe")
@@ -50,6 +50,7 @@ keyword.submit()
 # 아래 코드로 안들어가지면 손으로 클릭..
 photo=driver.find_element_by_xpath('//*[@id="u_fetchstream_2_1"]/div/div/div/ul/li[4]/a').click()
 
+'''
 ## 날짜 선택
 # 2018년 클릭하기
 bn2018 = driver.find_element_by_xpath('//*[@id="u_ps_fetchstream_4_0_i"]/a[3]/label/span').click()
@@ -65,11 +66,6 @@ allpic = driver.find_element_by_xpath('//*[@id="u_ps_fetchstream_9_3_4"]/div/a')
 # 사진 하나씩 클릭 ## 어떻게 해야하지..?
 pic_click = driver.find_element_by_xpath('//*[@id="u_ps_fetchstream_6_3_n"]/a/div').click()
 
-'//*[@id="u_ps_0_3_p"]/a/div/img'
-'//*[@id="u_ps_0_3_u"]/a/div/img'
-'//*[@id="u_ps_0_3_z"]/a/div/img'
-'//*[@id="u_ps_0_3_14"]/a/div/img'
-'//*[@id="u_ps_0_3_19"]/a/div/img'
 
 # 사진 가져오기 
 html = driver.page_source 
@@ -93,16 +89,13 @@ for i in imgurl:
     req.urlretrieve(i,dir+name+'png')      #이미지 다운로드
     
 
-
-
-# 닫기
-
-
 '''
 # 스크롤내리기
-for i in range(1,5):             #스크롤을 내리는 작업을 4번 하겠다는 뜻
-    driver.find_element_by_tag_name('body').send_keys(Keys.END) #스크롤을 끝까지 내리기
-    time.sleep(5)
+# 스크롤 내리는 작업 999회, 만약 더 내려갈 스크롤이 없는 경우 보고 있다가 중지 누르기
+for i in range(1,1000):             
+    driver.find_element_by_tag_name('body').send_keys(Keys.END)
+    time.sleep(3)
+    print(i) #스크롤 내리는 횟수 몇 회째인지 확인하기 위해서
 
 html=driver.page_source  #페이지 소스를 html에 저장
 soup=BeautifulSoup(html,"html.parser")  #html 열기 
@@ -113,11 +106,16 @@ imglink=soup.find_all("img",class_="scaledImageFitHeight img")
 for i in imglink:
     imgurl.append(i['src'])
     
-imgurl  #이미지 url정보들이 저장됨
+#이미지 url정보들이 저장되었는지 확인    
+imgurl  
 
-# 이미지 url들을 가지고 내 pc에 이미지 저장하기 
+# 이미지 url들을 가지고 내 pc에 이미지 저장하기
+sns = "facebook_"    # sns 종류
+ym = "1807_"          # 날짜
+path = "C:/beer/1807/#술스타그램/"
+
 x=1
 for i in imgurl:
-    req.urlretrieve(i,"c:/beer/facebook_08july"+str(x)+".jpg")      #이미지 다운로드
+    req.urlretrieve(i,path+sns+ym+str(x)+".jpg")      #이미지 다운로드
     x += 1
-'''
+
