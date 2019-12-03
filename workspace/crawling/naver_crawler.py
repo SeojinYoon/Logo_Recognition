@@ -56,13 +56,8 @@ for i in soup.select('img'):
 len(params)
 
 
-#사진 데이터 저장   
-x = 1
-for i in params:
-    req.urlretrieve(i,"C:/data/TEAM_PROJECT/data/CASS_FRESH/naver_cass"+str(x)+".png")
-    x += 1 
-
 #사진데이터 저장 코드 수정
+#경로(dir) 맨끝에 / 붙여줄것
 x = 1
 for i in params:
     dir="C:/Users/stu20/Documents/Logo_Recognition/data/CASS_LIGHT/"
