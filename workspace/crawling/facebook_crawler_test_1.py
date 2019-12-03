@@ -19,7 +19,7 @@ driver.implicitly_wait(3)
 driver.get(url)    
 
 user = 'gjdnwlsdl@naver.com' # 아이디를 입력하세요
-mypass = '68eu060714!@' #비밀번호를 입력하세요
+mypass = '_' #비밀번호를 입력하세요
 
 #아이디 입력하는 곳
 inputid = driver.find_element_by_name("email")
@@ -105,7 +105,7 @@ for i in imgurl:
 for i in range(1,1000):             
     driver.find_element_by_tag_name('body').send_keys(Keys.END) 
     time.sleep(3)
-
+    print(i)
 # 스크롤이 더이상 내려가지 않으면 중지 누르기. 그러고 다음코드로.
     
 html=driver.page_source  # 페이지 소스를 html에 저장
