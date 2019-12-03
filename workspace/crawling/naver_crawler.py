@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Dec  2 19:48:50 2019
-
-@author: stu15
-"""
 
 import time 
 import urllib.request as req
@@ -11,7 +5,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-#GOOGLE
+#NAVER
 url = "https://search.naver.com/search.naver?sm=tab_sly.hst&where=image&query=&oquery=%EC%B9%B4%EC%8A%A4+%ED%94%84%EB%A0%88%EC%89%AC&tqi=UPgVWdp0YiRss4KGxfCsssssstR-161930"
 driver = webdriver.Chrome("c:/data/chromedriVer.exe")
 driver.get(url)
@@ -20,7 +14,23 @@ driver.get(url)
 e = driver.find_element_by_id("nx_query")
 
 #검색어 입력
-e.send_keys("카스 프레쉬")
+e.send_keys("카스 후레쉬")
+e.send_keys("카스 라이트")
+e.send_keys("하이트 맥주")
+e.send_keys("하이네켄")
+e.send_keys("호가든")
+e.send_keys("아사히 맥주")
+e.send_keys("버드와이저")
+e.send_keys("기린 이치방 맥주")
+e.send_keys("클라우드 맥주")
+e.send_keys("코젤")
+e.send_keys("삿뽀로 맥주")
+e.send_keys("필스너 우르켈")
+e.send_keys("크로넨버그 맥주")
+e.send_keys("스텔라 아르투아")
+e.send_keys("테라 맥주")
+e.send_keys("칭다오 맥주")
+
 
 #엔터 입력
 e.submit()
