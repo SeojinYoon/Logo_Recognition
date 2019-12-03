@@ -297,6 +297,7 @@ keyword.submit()
 # 사진 카테고리로 가기
 # 아래 코드로 안들어가지면 손으로 클릭..
 photo=driver.find_element_by_xpath('//*[@id="u_fetchstream_2_1"]/div/div/div/ul/li[4]/a').click()
+# -> 2018년 8월 -> 모두보기 클릭
 
 # 스크롤내리기
 # 스크롤 내리는 작업 999회, 만약 더 내려갈 스크롤이 없는 경우 보고 있다가 중지 누르기
@@ -304,7 +305,7 @@ for i in range(1,1000):
     driver.find_element_by_tag_name('body').send_keys(Keys.END)
     time.sleep(3)
     print(i) #스크롤 내리는 횟수 몇 회째인지 확인하기 위해서
-
+# 650
 html=driver.page_source  #페이지 소스를 html에 저장
 soup=BeautifulSoup(html,"html.parser")  #html 열기 
 
@@ -316,6 +317,7 @@ for i in imglink:
     
 #이미지 url정보들이 저장되었는지 확인    
 imgurl  
+len(imgurl) #2737개
 
 # 이미지 url들을 가지고 내 pc에 이미지 저장하기
 sns = "facebook_"    # sns 종류
