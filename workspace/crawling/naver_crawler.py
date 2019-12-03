@@ -62,4 +62,10 @@ for i in params:
     req.urlretrieve(i,"C:/data/TEAM_PROJECT/data/CASS_FRESH/naver_cass"+str(x)+".png")
     x += 1 
 
-
+#사진데이터 저장 코드 수정
+x = 1
+for i in params:
+    dir="C:/Users/stu20/Documents/Logo_Recognition/data/CASS_LIGHT/"
+    name="naver_cass_light"
+    req.urlretrieve(i,dir+name+str(x)+'.png')
+    x += 1 
