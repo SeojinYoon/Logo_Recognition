@@ -1,0 +1,48 @@
+
+#YOLO
+
+
+비주얼 스튜디오 Visual Studio 2015
+https://m.blog.naver.com/n_jihyeon/221092807806
+
+
+YOLO_MARK 다운
+https://giantpark197cm.tistory.com/167
+
++)
+https://reyrei.tistory.com/19?category=824469
+https://reyrei.tistory.com/20
+
+
+h: 단축키 보여주기
+숫자 0,1,2...: 라벨 설정 키
+
+
+
+Darkflow
+https://jeongmin-lee.tistory.com/58
+
+
+YOLO 데이터 학습
+https://pgmrlsh.tistory.com/6
+https://writenkeep.tistory.com/6
+https://murra.tistory.com/64#recentComments
+http://blog.naver.com/yes2013/221218634469
+https://blog.naver.com/gisman83/221715263393
+
+
+YOLO 사용법
+https://giantpark197cm.tistory.com/167
+https://murra.tistory.com/18
+https://developer-thislee.tistory.com/18
+https://m.blog.naver.com/hhd4136/221304645344
+
+
+자체 데이터를 YOLO로 수행하기
+https://github.com/YunYang1994/tensorflow-yolov3/blob/master/README.md
+
+
+
+Pytorch로 사용 + 맥에서 사용
+https://nuggy875.tistory.com/14
+https://medium.com/@hyunseokjeong/pytorch-%EB%A1%9C-yolo-v3-%EA%B5%AC%ED%98%84%ED%95%9C-%EA%B2%83%EC%9D%84-colaboratory-%EC%97%90%EC%84%9C-%EB%8F%8C%EB%A0%A4%EB%B3%B4%EC%9E%90-5b99e847b420
