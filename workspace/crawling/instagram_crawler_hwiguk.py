@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Dec  3 17:36:30 2019
-
-@author: sty13
-"""
-
 
 # 인스타 웹 스크래핑
 from selenium import webdriver
@@ -30,8 +23,7 @@ driver.implicitly_wait(3)
 driver.get(url)
 driver.implicitly_wait(3)
 
-driver.find_element_by_xpath('//*[@id="react-root"]/section/main/article/div[2]/div[2]/p/a').click()
-#time.sleep(3)
+driver.find_element_by_css_selector('#react-root > section > main > article > div.rgFsT > div:nth-child(2) > p > a').click()
 
 # 인스타 로그인
 #id_var = 'punkrocks1@naver.com' # 아이디
@@ -44,40 +36,60 @@ driver.find_element_by_name('password').send_keys(pass_var)
 driver.find_element_by_css_selector("button").submit()
 
 time.sleep(3)
-driver.implicitly_wait(50)
-driver.find_element_by_xpath('/html/body/div[3]/div/div/div[3]/button[2]').click() # 팝업 알림 나중에 하기 설정
+driver.implicitly_wait(5)
+driver.find_element_by_css_selector('body > div.RnEpo.Yx5HN > div > div > div.mt3GC > button.aOOlW.HoLwm').click() # 팝업 알림 나중에 하기 설정
 
 # 키워드 검색 (#편맥, #캔맥)
-driver.find_element_by_xpath('//*[@id="react-root"]/section/nav/div[2]/div/div/div[2]/div/div').click()
+driver.find_element_by_css_selector('#react-root > section > nav > div._8MQSO.Cx7Bp > div > div > div.LWmhU._0aCwM > div > div').click()
 
 #search_var = '#편맥' # 키워드 검색
-driver.find_element_by_xpath('//*[@id="react-root"]/section/nav/div[2]/div/div/div[2]/input').send_keys(search_var)
+driver.find_element_by_css_selector('#react-root > section > nav > div._8MQSO.Cx7Bp > div > div > div.LWmhU._0aCwM > input').send_keys(search_var)
 
 driver.find_element_by_class_name('z556c').click()
 
 # 웹 스크래핑
 driver.find_element_by_css_selector('#react-root > section > main > article > div:nth-child(3) > div > div:nth-child(1) > div:nth-child(1) > a > div').click() # 첫번째 사진 클릭
 
-for i in range(count_var):
+for i in range(count_var + 1):
     
-    time.sleep(1.8) 
+    time.sleep(4) # 데이터 로딩을 위한 딜레이 시간 설정 (4 로 설정하면 4 초당 1 장 스크랩)
     html = driver.page_source
     soup = BeautifulSoup(html,"html.parser")
     
     if soup.select_one('.fXIG0') != None: # 영상일 경우
         pass
+    
+    elif soup.select_one('.xUdfV') != None: # 사진에 태그가 되어있는 경우 (여러장의 사진일 경우, 한장일 경우)
+        if soup.select_one('.YlNGR') != None: # 사진에 태그가 된 사진이 여러장일 경우
+            
+            soup_var = str(soup) # 문자열 매칭 확인을 하기위해 soup 변수를 str 변수로 변환
+            
+            if soup_var.find('<div class="eLAPa RzuR0"><div class="KL4Bh"') == -1: # 사진이 여러장인데 첫번째, 두번째 사진에 태그가 된 사진일 경우
+                image_var.append(soup.select_one('body > div._2dDPU.vCf6V > div.zZYga > div > article > div._97aPb > div > div > div.tN4sQ.zRsZI > div > div > div > ul > li:nth-child(2) > div > div > div > div > div.eLAPa._23QFA > div.KL4Bh > img').attrs['src']) # 이미지
+                date_var.append(soup.select_one('body > div._2dDPU.vCf6V > div.zZYga > div > article > div.eo2As > div.k_Q0X.NnvRN > a > time').attrs['title']) # 날짜
+            elif soup_var.find('<div class="RzuR0 kHt39 plVq-"><div class="eLAPa _23QFA"') <= soup_var.find('<div class="eLAPa RzuR0"><div class="KL4Bh"'): # 사진이 여러장인데 사진에 태그가 된 사진이 첫번째 그냥 사진이 두번째일 경우
+                image_var.append(soup.select_one('body > div._2dDPU.vCf6V > div.zZYga > div > article > div._97aPb > div > div > div.tN4sQ.zRsZI > div > div > div > ul > li:nth-child(1) > div > div > div > div.eLAPa._23QFA > div.KL4Bh > img').attrs['src']) # 이미지
+                date_var.append(soup.select_one('body > div._2dDPU.vCf6V > div.zZYga > div > article > div.eo2As > div.k_Q0X.NnvRN > a > time').attrs['title']) # 날짜
+            else: # 사진이 여러장인데 사진에 태그가 안되어 있는 사진이 첫번째 태그가 된 사진이 두번째일 경우
+                image_var.append(soup.select_one('body > div._2dDPU.vCf6V > div.zZYga > div > article > div._97aPb > div > div > div.tN4sQ.zRsZI > div > div > div > ul > li:nth-child(1) > div > div > div > div.KL4Bh > img').attrs['src']) # 이미지
+                date_var.append(soup.select_one('body > div._2dDPU.vCf6V > div.zZYga > div > article > div.eo2As > div.k_Q0X.NnvRN > a > time').attrs['title']) # 날짜
+                
+        else: # 사진에 태그가 된 사진이 한장일 경우
+            image_var.append(soup.select_one('body > div._2dDPU.vCf6V > div.zZYga > div > article > div._97aPb > div > div > div.eLAPa._23QFA > div.KL4Bh > img').attrs['src']) # 이미지
+            date_var.append(soup.select_one('body > div._2dDPU.vCf6V > div.zZYga > div > article > div.eo2As > div.k_Q0X.NnvRN > a > time').attrs['title']) # 날짜
+            
     elif soup.select_one('.YlNGR') != None: # 여러장일 경우
-        pass
-    elif soup.select_one('.xUdfV') != None: # 예외일 경우
-        pass
-    else:
+        image_var.append(soup.select_one('body > div._2dDPU.vCf6V > div.zZYga > div > article > div._97aPb > div > div > div.tN4sQ.zRsZI > div > div > div > ul > li:nth-child(1) > div > div > div > div.KL4Bh > img').attrs['src']) # 이미지
+        date_var.append(soup.select_one('body > div._2dDPU.vCf6V > div.zZYga > div > article > div.eo2As > div.k_Q0X.NnvRN > a > time').attrs['title']) # 날짜
+        
+    else: # 한장의 사진일 경우
         image_var.append(soup.select_one('body > div._2dDPU.vCf6V > div.zZYga > div > article > div._97aPb > div > div > div.KL4Bh > img').attrs['src']) # 이미지
         date_var.append(soup.select_one('body > div._2dDPU.vCf6V > div.zZYga > div > article > div.eo2As > div.k_Q0X.NnvRN > a > time').attrs['title']) # 날짜
     
     driver.find_element_by_css_selector('body > div._2dDPU.vCf6V > div.EfHg9 > div > div > a.HBoOv.coreSpriteRightPaginationArrow').click()
 
-len(image_var) # 이미지 데이터
-len(date_var) # 날짜 데이터
+len(image_var) # 이미지 데이터 개수 확인
+len(date_var) # 날짜 데이터 개수 확인
 
 driver.quit()
 
@@ -85,7 +97,6 @@ x = 1
 for p in image_var: # 상품 리스트 이미지를 sample 폴더로 다운로드
     req.urlretrieve(p,"c:/sample/" + str(x) + ".jpg") 
     x += 1
-
 
 x = 1
 with open('c:/sample/date.txt','w') as f: # 상품 리스트 날짜를 sample 폴더로 다운로드
