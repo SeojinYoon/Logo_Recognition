@@ -1,0 +1,62 @@
+.weight 파일
+darknet은 100번째 반복마다 backup 폴더에 .weights 파일을 저장한다. -> [configuration 파일 이름]_last.weights 형식 ex) yolo-obj_last.weights
+darknet은 1000번째 반복마다 backup 폴더에 .weights 파일을 저장한다. -> [configuration 파일 이름]_xxxx.weights 형식 ex) yolo-obj_2000.weights
+darknet은 모든 훈련이 완료되면 backup폴더에 .weights 파일을 저장한다. -> [configuration 파일 이름]_final.weights
+
+필수 파일 구성
+	.data 파일
+	데이터셋을 정의하는 파일이다.
+	class = [클래스 이름]
+	train = [training data set을 정의하는 파일의 경로]
+	valid = [test data set을 정의하는 파일의 경로]
+	names = [class의 이름을 정의하는 파일의 경로]
+	backup = [backup할 폴더의 경로]
+	ex)
+	classes = 2
+	train = data/train.txt
+	valid = data/test.txt
+	names = data/obj.names
+	backup = backup/
+		train data set을 정의하는 파일의 내용 ( .txt 파일 )
+		[파일의 경로]/[이미지 이름]
+		ex)
+		data/obj/google_kirin_ichiban7.png
+		data/obj/google_kloud2.png
+		data/obj/google_budweisser4.png
+		data/obj/google_budweisser5.png
+		data/obj/google_kloud3.png
+
+		테스트 data set을 정의하는 파일 ( .txt 파일 )
+		[파일의 경로]/[이미지 이름]
+		data/obj/google_budweisser4.png
+		data/obj/google_budweisser5.png
+		data/obj/google_kloud3.png
+
+		클래스 이름을 정의하는 파일( .names 파일)
+		[이미지 이름]
+		ex)
+		ASAHI
+		BUDWEISSER
+		CASS_FRESH
+		CASS_LIGHT
+		HEINEKEN
+		HITE_EXTRACOLD
+		HOEGAARDEN
+		KIRIN_ICHIBAN
+		KLOUD
+		KOZE
+
+	.cfg 파일
+	cfg 파일은 network를 구성하는 파일이다.
+	yolov3.cfg 와 같은 content를 갖는 yolo-obj.cfg 파일을 생성한다.
+	- batch=64로 바꾼다.
+	- subdivisions = 8 로 바꾼다.
+	- max_batches를 classes * 2000으로 바꾼다.
+	- steps를 max_batches의 80~90프로 수준으로 바꾼다.
+	- 3개의 [yolo] layer에서 classes를 당신의 object수로 바꾼다.
+	- 각 [yolo] layer 이전의  [convolutional] layer에서 filters를 (classes + 5) * 3으로 바꾼다.
+	- [Gaussian_yolo] layer를 사용한다면, 각 [Gaussian_yolo] layer의  [convolutional]에서 filters 를 (classes + 9) * 3으로 바꾼다.
+	(일반적으로 filters는 classes와 coords 그리고 mask의 개수에 의존한다
+	ex) filters = (classes + coords + 1) * <number of mask>
+	mask는 앵커의 인덱스이다.
+	mask가 없으면 filters = (classes + coords + 1) * num
