@@ -18,6 +18,10 @@ h: 단축키 보여주기
 숫자 0,1,2...: 라벨 설정 키
 
 
+오류 발생 시
+https://giantpark197cm.tistory.com/167
+
+
 
 Darkflow
 https://jeongmin-lee.tistory.com/58

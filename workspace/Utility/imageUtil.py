@@ -13,8 +13,3 @@ if __name__== "__main__":
     
     image_path('/Users/yoonseojin/Logo_Recognition/data/YOLO MARK TEST')
     
-import fileUtil
-
-import sys
-sys.path = '/Users/yoonseojin/Logo_Recognition/workspace/utility/'
-
