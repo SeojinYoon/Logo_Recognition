@@ -1,5 +1,7 @@
 
 #YOLO
+https://pjreddie.com/darknet/yolo/#demo
+
 
 
 비주얼 스튜디오 Visual Studio 2015
@@ -35,16 +37,34 @@ http://blog.naver.com/yes2013/221218634469
 https://blog.naver.com/gisman83/221715263393
 
 
+YOLO 원리
+https://m.blog.naver.com/sogangori/220993971883
+https://pgmrlsh.tistory.com/5?category=766787
+https://dhhwang89.tistory.com/106
+https://dhhwang89.tistory.com/107?category=733930
+
+
+YOLO 사례
+https://www.epnc.co.kr/news/articleView.html?idxno=83022
+
+
 YOLO 사용법
 https://giantpark197cm.tistory.com/167
 https://murra.tistory.com/18
 https://developer-thislee.tistory.com/18
 https://m.blog.naver.com/hhd4136/221304645344
+http://hrepository.blogspot.com/2018/12/yolo-v3-command-included.html
+
+*여러 사진을 한꺼번에 예측하여 결과를 저장하기
+https://kd1658.tistory.com/25
 
 
 자체 데이터를 YOLO로 수행하기
 https://github.com/YunYang1994/tensorflow-yolov3/blob/master/README.md
 
+
+YOLO 활용
+https://pgmrlsh.tistory.com/6?category=766787
 
 
 Pytorch로 사용 + 맥에서 사용
