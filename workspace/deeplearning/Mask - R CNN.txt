@@ -1,0 +1,9 @@
+MASK R - CNN
+
+
+https://mylifemystudy.tistory.com/81
+https://reyrei.tistory.com/21
+https://reyrei.tistory.com/11?category=794577
+https://github.com/starbucksdolcelatte/FittingroomAnywhere/blob/master/Segmentation/Mask_RCNN/model_analyzed.ipynb
+https://github.com/matterport/Mask_RCNN
+https://www.analyticsvidhya.com/blog/2019/07/computer-vision-implementing-mask-r-cnn-image-segmentation/
