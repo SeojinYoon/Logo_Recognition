@@ -1,0 +1,373 @@
+
+logo_test_1212.ipynb 파일 학습
+링크: https://colab.research.google.com/drive/12OemyfYdJSRBwkUzHlZepVnOlP4rVlcj
+
+
+batch=32
+subdivisions=32
+learning_rate=0.00001
+
+
+4: 597.350525, 597.733093 avg loss, ...
+5: 597.954834, 597.755249
+6: 595.936829, 597.573425
+8: 598.667175, 597.640564
+12: 723.006897, 621.318787
+13: 722.153931, 631.402283
+14: 722.405151, 640.502563
+15: 722.175781, 648.669861
+16: 725.146667, 656.317566
+18: 722.269897, 668.865356
+19: 721.288940, 674.107727
+20: 722.678772, 678.964844
+22: 722.945190, 687.305786
+27: 722.988037, 701.897949
+
+
+
+앞부분은 지워졌고, 뒷부분
+
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 3
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 3
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 3
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 3
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 3
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 3
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+
+ 33: nan, nan avg loss, 0.000000 rate, 1328.296405 seconds, 1056 images
+Loaded: 0.000108 seconds
+
+ 33: nan, nan avg loss, 0.000000 rate, 1328.296405 seconds, 1056 images
+Loaded: 0.000108 seconds
+
+ 33: nan, nan avg loss, 0.000000 rate, 1328.296405 seconds, 1056 images
+Loaded: 0.000108 seconds
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 4
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 4
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 4
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 3
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 3
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 3
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 3
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 3
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 3
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 82 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 1
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 94 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: 0.000000, .75R: 0.000000,  count: 2
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+Region 106 Avg IOU: -nan, Class: -nan, Obj: -nan, No Obj: -nan, .5R: -nan, .75R: -nan,  count: 0
+
+--종료--

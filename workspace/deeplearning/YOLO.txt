@@ -59,6 +59,11 @@ http://hrepository.blogspot.com/2018/12/yolo-v3-command-included.html
 https://kd1658.tistory.com/25
 
 
+YOLO 정확도 높이기
+https://eehoeskrap.tistory.com/370
+https://murra.tistory.com/18
+
+
 자체 데이터를 YOLO로 수행하기
 https://github.com/YunYang1994/tensorflow-yolov3/blob/master/README.md
 
@@ -70,3 +75,28 @@ https://pgmrlsh.tistory.com/6?category=766787
 Pytorch로 사용 + 맥에서 사용
 https://nuggy875.tistory.com/14
 https://medium.com/@hyunseokjeong/pytorch-%EB%A1%9C-yolo-v3-%EA%B5%AC%ED%98%84%ED%95%9C-%EA%B2%83%EC%9D%84-colaboratory-%EC%97%90%EC%84%9C-%EB%8F%8C%EB%A0%A4%EB%B3%B4%EC%9E%90-5b99e847b420
+
+
+
+Colab 연결 끊김 방지
+https://bryan7.tistory.com/1077
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
