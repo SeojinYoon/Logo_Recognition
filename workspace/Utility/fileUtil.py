@@ -20,4 +20,3 @@ if __name__== "__main__":
     
     # 에제
     write('/Users/yoonseojin/Desktop/test.txt', '이런이런!')
-    
