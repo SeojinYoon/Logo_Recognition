@@ -1,0 +1,941 @@
+Total BFLOPS 65.355 
+
+ seen 64 
+folder input=exp/in_images/ and output=exp/out_images/
+Start processing exp/in_images/sapporo (20).jpg
+exp/in_images/sapporo (20).jpg: Predicted in 22.042000 milli-seconds.
+SAPPORO: 59%
+End
+Start processing exp/in_images/cass (1).jpg
+exp/in_images/cass (1).jpg: Predicted in 19.267000 milli-seconds.
+CASS: 30%
+CASS: 68%
+End
+Start processing exp/in_images/heineken (15).jpg
+exp/in_images/heineken (15).jpg: Predicted in 19.153000 milli-seconds.
+HEINEKEN: 96%
+End
+Start processing exp/in_images/kirin (3).jpg
+exp/in_images/kirin (3).jpg: Predicted in 19.237000 milli-seconds.
+KIRIN_ICHIBAN: 29%
+End
+Start processing exp/in_images/kronenbourg (20).jpg
+exp/in_images/kronenbourg (20).jpg: Predicted in 19.160000 milli-seconds.
+KRONENBOURG: 99%
+End
+Start processing exp/in_images/hoegaarden (12).jpg
+exp/in_images/hoegaarden (12).jpg: Predicted in 19.169000 milli-seconds.
+HOEGAARDEN: 91%
+End
+Start processing exp/in_images/sapporo (19).jpg
+exp/in_images/sapporo (19).jpg: Predicted in 19.342000 milli-seconds.
+SAPPORO: 38%
+End
+Start processing exp/in_images/kirin (9).jpg
+exp/in_images/kirin (9).jpg: Predicted in 19.230000 milli-seconds.
+KIRIN_ICHIBAN: 65%
+KIRIN_ICHIBAN: 76%
+KIRIN_ICHIBAN: 67%
+End
+Start processing exp/in_images/cass (17).jpg
+exp/in_images/cass (17).jpg: Predicted in 19.190000 milli-seconds.
+CASS: 89%
+CASS: 87%
+CASS: 87%
+CASS: 25%
+End
+Start processing exp/in_images/sapporo (7).jpg
+exp/in_images/sapporo (7).jpg: Predicted in 19.193000 milli-seconds.
+SAPPORO: 99%
+End
+Start processing exp/in_images/hite (12).jpg
+exp/in_images/hite (12).jpg: Predicted in 19.178000 milli-seconds.
+HITE_EXTRACOLD: 31%
+HITE_EXTRACOLD: 74%
+HITE_EXTRACOLD: 31%
+HITE_EXTRACOLD: 93%
+HITE_EXTRACOLD: 94%
+HOEGAARDEN: 89%
+End
+Start processing exp/in_images/sapporo (10).jpg
+exp/in_images/sapporo (10).jpg: Predicted in 19.091000 milli-seconds.
+SAPPORO: 75%
+End
+Start processing exp/in_images/hoegaarden (3).jpg
+exp/in_images/hoegaarden (3).jpg: Predicted in 19.275000 milli-seconds.
+HOEGAARDEN: 77%
+HOEGAARDEN: 80%
+HOEGAARDEN: 73%
+End
+Start processing exp/in_images/asahi (15).jpg
+exp/in_images/asahi (15).jpg: Predicted in 19.177000 milli-seconds.
+ASAHI: 87%
+ASAHI: 58%
+End
+Start processing exp/in_images/kirin (6).jpg
+exp/in_images/kirin (6).jpg: Predicted in 19.132000 milli-seconds.
+KIRIN_ICHIBAN: 91%
+End
+Start processing exp/in_images/sapporo (5).jpg
+exp/in_images/sapporo (5).jpg: Predicted in 19.207000 milli-seconds.
+End
+Start processing exp/in_images/asahi (16).jpg
+exp/in_images/asahi (16).jpg: Predicted in 19.335000 milli-seconds.
+ASAHI: 89%
+ASAHI: 93%
+End
+Start processing exp/in_images/heineken (17).jpg
+exp/in_images/heineken (17).jpg: Predicted in 19.147000 milli-seconds.
+HEINEKEN: 99%
+HEINEKEN: 96%
+End
+Start processing exp/in_images/hite (17).jpg
+exp/in_images/hite (17).jpg: Predicted in 19.278000 milli-seconds.
+CASS: 30%
+End
+Start processing exp/in_images/budweiser (2).jpg
+exp/in_images/budweiser (2).jpg: Predicted in 19.246000 milli-seconds.
+BUDWEISSER: 92%
+BUDWEISSER: 95%
+End
+Start processing exp/in_images/cass (20).jpg
+exp/in_images/cass (20).jpg: Predicted in 19.041000 milli-seconds.
+CASS: 26%
+End
+Start processing exp/in_images/kronenbourg (2).jpg
+exp/in_images/kronenbourg (2).jpg: Predicted in 19.235000 milli-seconds.
+KRONENBOURG: 99%
+CASS: 29%
+End
+Start processing exp/in_images/asahi (12).jpg
+exp/in_images/asahi (12).jpg: Predicted in 19.181000 milli-seconds.
+ASAHI: 100%
+End
+Start processing exp/in_images/budweiser (20).jpg
+exp/in_images/budweiser (20).jpg: Predicted in 19.124000 milli-seconds.
+BUDWEISSER: 86%
+End
+Start processing exp/in_images/asahi (4).jpg
+exp/in_images/asahi (4).jpg: Predicted in 19.245000 milli-seconds.
+ASAHI: 93%
+End
+Start processing exp/in_images/kirin (19).jpg
+exp/in_images/kirin (19).jpg: Predicted in 19.117000 milli-seconds.
+End
+Start processing exp/in_images/budweiser (1).jpg
+exp/in_images/budweiser (1).jpg: Predicted in 19.205000 milli-seconds.
+BUDWEISSER: 95%
+End
+Start processing exp/in_images/budweiser (5).jpg
+exp/in_images/budweiser (5).jpg: Predicted in 19.076000 milli-seconds.
+BUDWEISSER: 90%
+BUDWEISSER: 91%
+HOEGAARDEN: 43%
+End
+Start processing exp/in_images/cass (11).jpg
+exp/in_images/cass (11).jpg: Predicted in 20.221000 milli-seconds.
+CASS: 59%
+CASS: 57%
+End
+Start processing exp/in_images/kronenbourg (19).jpg
+exp/in_images/kronenbourg (19).jpg: Predicted in 19.337000 milli-seconds.
+KRONENBOURG: 89%
+End
+Start processing exp/in_images/kirin (1).jpg
+exp/in_images/kirin (1).jpg: Predicted in 19.498000 milli-seconds.
+KIRIN_ICHIBAN: 85%
+End
+Start processing exp/in_images/budweiser (16).jpg
+exp/in_images/budweiser (16).jpg: Predicted in 19.318000 milli-seconds.
+BUDWEISSER: 74%
+BUDWEISSER: 90%
+BUDWEISSER: 82%
+End
+Start processing exp/in_images/asahi (5).jpg
+exp/in_images/asahi (5).jpg: Predicted in 19.192000 milli-seconds.
+ASAHI: 88%
+ASAHI: 94%
+End
+Start processing exp/in_images/hoegaarden (15).jpg
+exp/in_images/hoegaarden (15).jpg: Predicted in 19.240000 milli-seconds.
+HOEGAARDEN: 82%
+End
+Start processing exp/in_images/hoegaarden (8).jpg
+exp/in_images/hoegaarden (8).jpg: Predicted in 19.374000 milli-seconds.
+HOEGAARDEN: 97%
+End
+Start processing exp/in_images/kirin (8).jpg
+exp/in_images/kirin (8).jpg: Predicted in 19.893000 milli-seconds.
+KIRIN_ICHIBAN: 94%
+End
+Start processing exp/in_images/kronenbourg (10).jpg
+exp/in_images/kronenbourg (10).jpg: Predicted in 19.320000 milli-seconds.
+KRONENBOURG: 98%
+End
+Start processing exp/in_images/heineken (6).jpg
+exp/in_images/heineken (6).jpg: Predicted in 19.276000 milli-seconds.
+HEINEKEN: 99%
+End
+Start processing exp/in_images/heineken (14).jpg
+exp/in_images/heineken (14).jpg: Predicted in 19.356000 milli-seconds.
+HEINEKEN: 50%
+KIRIN_ICHIBAN: 84%
+HEINEKEN: 44%
+KIRIN_ICHIBAN: 77%
+HEINEKEN: 40%
+KIRIN_ICHIBAN: 86%
+KIRIN_ICHIBAN: 76%
+HEINEKEN: 85%
+End
+Start processing exp/in_images/cass (5).jpg
+exp/in_images/cass (5).jpg: Predicted in 19.952000 milli-seconds.
+CASS: 72%
+End
+Start processing exp/in_images/hite (1).jpg
+exp/in_images/hite (1).jpg: Predicted in 19.185000 milli-seconds.
+End
+Start processing exp/in_images/cass (18).jpg
+exp/in_images/cass (18).jpg: Predicted in 19.075000 milli-seconds.
+CASS: 95%
+End
+Start processing exp/in_images/kirin (10).jpg
+exp/in_images/kirin (10).jpg: Predicted in 19.330000 milli-seconds.
+KIRIN_ICHIBAN: 96%
+End
+Start processing exp/in_images/kronenbourg (17).jpg
+exp/in_images/kronenbourg (17).jpg: Predicted in 19.204000 milli-seconds.
+KRONENBOURG: 42%
+KRONENBOURG: 88%
+End
+Start processing exp/in_images/terra (1).jpg
+exp/in_images/terra (1).jpg: Predicted in 19.298000 milli-seconds.
+TERRA: 99%
+End
+Start processing exp/in_images/terra (12).jpg
+exp/in_images/terra (12).jpg: Predicted in 19.199000 milli-seconds.
+TERRA: 99%
+TERRA: 49%
+End
+Start processing exp/in_images/hite (6).jpg
+exp/in_images/hite (6).jpg: Predicted in 19.065000 milli-seconds.
+HITE_EXTRACOLD: 99%
+End
+Start processing exp/in_images/terra (9).jpg
+exp/in_images/terra (9).jpg: Predicted in 19.196000 milli-seconds.
+TERRA: 99%
+TERRA: 95%
+End
+Start processing exp/in_images/terra (19).jpg
+exp/in_images/terra (19).jpg: Predicted in 19.053000 milli-seconds.
+TERRA: 100%
+End
+Start processing exp/in_images/hite (18).jpg
+exp/in_images/hite (18).jpg: Predicted in 19.176000 milli-seconds.
+HITE_EXTRACOLD: 99%
+HITE_EXTRACOLD: 100%
+HITE_EXTRACOLD: 46%
+End
+Start processing exp/in_images/hoegaarden (5).jpg
+exp/in_images/hoegaarden (5).jpg: Predicted in 19.340000 milli-seconds.
+HOEGAARDEN: 98%
+End
+Start processing exp/in_images/cass (15).jpg
+exp/in_images/cass (15).jpg: Predicted in 19.123000 milli-seconds.
+End
+Start processing exp/in_images/sapporo (6).jpg
+exp/in_images/sapporo (6).jpg: Predicted in 19.361000 milli-seconds.
+SAPPORO: 85%
+SAPPORO: 57%
+End
+Start processing exp/in_images/kirin (17).jpg
+exp/in_images/kirin (17).jpg: Predicted in 19.256000 milli-seconds.
+KIRIN_ICHIBAN: 96%
+End
+Start processing exp/in_images/hoegaarden (16).jpg
+exp/in_images/hoegaarden (16).jpg: Predicted in 19.445000 milli-seconds.
+HOEGAARDEN: 97%
+End
+Start processing exp/in_images/kronenbourg (3).jpg
+exp/in_images/kronenbourg (3).jpg: Predicted in 19.395000 milli-seconds.
+KRONENBOURG: 99%
+End
+Start processing exp/in_images/terra (8).jpg
+exp/in_images/terra (8).jpg: Predicted in 19.226000 milli-seconds.
+TERRA: 99%
+End
+Start processing exp/in_images/sapporo (16).jpg
+exp/in_images/sapporo (16).jpg: Predicted in 19.183000 milli-seconds.
+SAPPORO: 99%
+End
+Start processing exp/in_images/cass (3).jpg
+exp/in_images/cass (3).jpg: Predicted in 19.409000 milli-seconds.
+CASS: 85%
+CASS: 98%
+End
+Start processing exp/in_images/cass (19).jpg
+exp/in_images/cass (19).jpg: Predicted in 19.193000 milli-seconds.
+CASS: 99%
+End
+Start processing exp/in_images/cass (8).jpg
+exp/in_images/cass (8).jpg: Predicted in 19.034000 milli-seconds.
+CASS: 89%
+HITE_EXTRACOLD: 70%
+End
+Start processing exp/in_images/budweiser (7).jpg
+exp/in_images/budweiser (7).jpg: Predicted in 19.174000 milli-seconds.
+End
+Start processing exp/in_images/terra (3).jpg
+exp/in_images/terra (3).jpg: Predicted in 19.332000 milli-seconds.
+TERRA: 99%
+TERRA: 86%
+CASS: 68%
+End
+Start processing exp/in_images/hoegaarden (11).jpg
+exp/in_images/hoegaarden (11).jpg: Predicted in 19.233000 milli-seconds.
+HOEGAARDEN: 99%
+End
+Start processing exp/in_images/heineken (10).jpg
+exp/in_images/heineken (10).jpg: Predicted in 19.242000 milli-seconds.
+HEINEKEN: 99%
+End
+Start processing exp/in_images/asahi (3).jpg
+exp/in_images/asahi (3).jpg: Predicted in 19.101000 milli-seconds.
+ASAHI: 70%
+End
+Start processing exp/in_images/heineken (8).jpg
+exp/in_images/heineken (8).jpg: Predicted in 19.296000 milli-seconds.
+HEINEKEN: 99%
+End
+Start processing exp/in_images/hite (10).jpg
+exp/in_images/hite (10).jpg: Predicted in 19.157000 milli-seconds.
+CASS: 74%
+End
+Start processing exp/in_images/hite (15).jpg
+exp/in_images/hite (15).jpg: Predicted in 19.064000 milli-seconds.
+End
+Start processing exp/in_images/cass (12).jpg
+exp/in_images/cass (12).jpg: Predicted in 19.105000 milli-seconds.
+CASS: 26%
+End
+Start processing exp/in_images/kirin (7).jpg
+exp/in_images/kirin (7).jpg: Predicted in 19.333000 milli-seconds.
+KIRIN_ICHIBAN: 95%
+KIRIN_ICHIBAN: 49%
+End
+Start processing exp/in_images/cass (9).jpg
+exp/in_images/cass (9).jpg: Predicted in 19.195000 milli-seconds.
+CASS: 89%
+End
+Start processing exp/in_images/asahi (1).jpg
+exp/in_images/asahi (1).jpg: Predicted in 19.273000 milli-seconds.
+ASAHI: 98%
+End
+Start processing exp/in_images/cass (2).jpg
+exp/in_images/cass (2).jpg: Predicted in 19.230000 milli-seconds.
+CASS: 93%
+End
+Start processing exp/in_images/budweiser (13).jpg
+exp/in_images/budweiser (13).jpg: Predicted in 19.181000 milli-seconds.
+BUDWEISSER: 61%
+End
+Start processing exp/in_images/kirin (14).jpg
+exp/in_images/kirin (14).jpg: Predicted in 19.356000 milli-seconds.
+KIRIN_ICHIBAN: 100%
+End
+Start processing exp/in_images/hoegaarden (9).jpg
+exp/in_images/hoegaarden (9).jpg: Predicted in 19.164000 milli-seconds.
+End
+Start processing exp/in_images/terra (11).jpg
+exp/in_images/terra (11).jpg: Predicted in 19.370000 milli-seconds.
+TERRA: 94%
+TERRA: 99%
+End
+Start processing exp/in_images/heineken (5).jpg
+exp/in_images/heineken (5).jpg: Predicted in 19.160000 milli-seconds.
+End
+Start processing exp/in_images/hoegaarden (4).jpg
+exp/in_images/hoegaarden (4).jpg: Predicted in 19.290000 milli-seconds.
+HOEGAARDEN: 84%
+HOEGAARDEN: 97%
+End
+Start processing exp/in_images/asahi (11).jpg
+exp/in_images/asahi (11).jpg: Predicted in 20.123000 milli-seconds.
+ASAHI: 99%
+End
+Start processing exp/in_images/hoegaarden (19).jpg
+exp/in_images/hoegaarden (19).jpg: Predicted in 19.347000 milli-seconds.
+HOEGAARDEN: 97%
+End
+Start processing exp/in_images/hite (2).jpg
+exp/in_images/hite (2).jpg: Predicted in 19.176000 milli-seconds.
+HITE_EXTRACOLD: 99%
+End
+Start processing exp/in_images/budweiser (12).jpg
+exp/in_images/budweiser (12).jpg: Predicted in 19.295000 milli-seconds.
+BUDWEISSER: 78%
+End
+Start processing exp/in_images/kronenbourg (11).jpg
+exp/in_images/kronenbourg (11).jpg: Predicted in 19.322000 milli-seconds.
+KRONENBOURG: 99%
+End
+Start processing exp/in_images/kronenbourg (6).jpg
+exp/in_images/kronenbourg (6).jpg: Predicted in 19.228000 milli-seconds.
+KRONENBOURG: 100%
+End
+Start processing exp/in_images/heineken (20).jpg
+exp/in_images/heineken (20).jpg: Predicted in 19.174000 milli-seconds.
+HEINEKEN: 99%
+HEINEKEN: 48%
+End
+Start processing exp/in_images/cass (7).jpg
+exp/in_images/cass (7).jpg: Predicted in 19.133000 milli-seconds.
+CASS: 77%
+CASS: 74%
+End
+Start processing exp/in_images/asahi (17).jpg
+exp/in_images/asahi (17).jpg: Predicted in 19.310000 milli-seconds.
+ASAHI: 99%
+End
+Start processing exp/in_images/sapporo (12).jpg
+exp/in_images/sapporo (12).jpg: Predicted in 19.183000 milli-seconds.
+SAPPORO: 82%
+End
+Start processing exp/in_images/sapporo (3).jpg
+exp/in_images/sapporo (3).jpg: Predicted in 19.167000 milli-seconds.
+SAPPORO: 96%
+End
+Start processing exp/in_images/asahi (13).jpg
+exp/in_images/asahi (13).jpg: Predicted in 19.270000 milli-seconds.
+ASAHI: 99%
+End
+Start processing exp/in_images/kirin (5).jpg
+exp/in_images/kirin (5).jpg: Predicted in 19.381000 milli-seconds.
+KIRIN_ICHIBAN: 61%
+End
+Start processing exp/in_images/kronenbourg (14).jpg
+exp/in_images/kronenbourg (14).jpg: Predicted in 19.426000 milli-seconds.
+KRONENBOURG: 68%
+End
+Start processing exp/in_images/terra (20).jpg
+exp/in_images/terra (20).jpg: Predicted in 19.257000 milli-seconds.
+TERRA: 85%
+TERRA: 40%
+TERRA: 93%
+TERRA: 42%
+TERRA: 51%
+TERRA: 89%
+TERRA: 39%
+TERRA: 38%
+TERRA: 92%
+TERRA: 42%
+TERRA: 44%
+TERRA: 71%
+TERRA: 77%
+TERRA: 30%
+TERRA: 34%
+TERRA: 51%
+TERRA: 93%
+TERRA: 30%
+TERRA: 82%
+TERRA: 91%
+TERRA: 79%
+TERRA: 91%
+TERRA: 92%
+End
+Start processing exp/in_images/heineken (16).jpg
+exp/in_images/heineken (16).jpg: Predicted in 19.256000 milli-seconds.
+HEINEKEN: 52%
+HEINEKEN: 92%
+End
+Start processing exp/in_images/heineken (12).jpg
+exp/in_images/heineken (12).jpg: Predicted in 19.345000 milli-seconds.
+HEINEKEN: 27%
+End
+Start processing exp/in_images/kronenbourg (16).jpg
+exp/in_images/kronenbourg (16).jpg: Predicted in 19.250000 milli-seconds.
+KRONENBOURG: 99%
+End
+Start processing exp/in_images/kirin (18).jpg
+exp/in_images/kirin (18).jpg: Predicted in 19.387000 milli-seconds.
+ASAHI: 67%
+KIRIN_ICHIBAN: 96%
+ASAHI: 67%
+End
+Start processing exp/in_images/budweiser (4).jpg
+exp/in_images/budweiser (4).jpg: Predicted in 19.323000 milli-seconds.
+BUDWEISSER: 99%
+BUDWEISSER: 33%
+BUDWEISSER: 97%
+BUDWEISSER: 56%
+BUDWEISSER: 97%
+BUDWEISSER: 28%
+BUDWEISSER: 91%
+BUDWEISSER: 34%
+BUDWEISSER: 97%
+BUDWEISSER: 56%
+End
+Start processing exp/in_images/asahi (2).jpg
+exp/in_images/asahi (2).jpg: Predicted in 19.238000 milli-seconds.
+ASAHI: 97%
+ASAHI: 95%
+ASAHI: 85%
+ASAHI: 47%
+ASAHI: 98%
+ASAHI: 79%
+End
+Start processing exp/in_images/sapporo (2).jpg
+exp/in_images/sapporo (2).jpg: Predicted in 19.242000 milli-seconds.
+SAPPORO: 97%
+End
+Start processing exp/in_images/hoegaarden (18).jpg
+exp/in_images/hoegaarden (18).jpg: Predicted in 19.513000 milli-seconds.
+HOEGAARDEN: 92%
+End
+Start processing exp/in_images/cass (16).jpg
+exp/in_images/cass (16).jpg: Predicted in 19.532000 milli-seconds.
+CASS: 66%
+End
+Start processing exp/in_images/asahi (10).jpg
+exp/in_images/asahi (10).jpg: Predicted in 19.430000 milli-seconds.
+ASAHI: 31%
+End
+Start processing exp/in_images/heineken (19).jpg
+exp/in_images/heineken (19).jpg: Predicted in 19.348000 milli-seconds.
+HEINEKEN: 27%
+End
+Start processing exp/in_images/hite (4).jpg
+exp/in_images/hite (4).jpg: Predicted in 19.296000 milli-seconds.
+CASS: 69%
+End
+Start processing exp/in_images/sapporo (14).jpg
+exp/in_images/sapporo (14).jpg: Predicted in 19.088000 milli-seconds.
+SAPPORO: 95%
+End
+Start processing exp/in_images/asahi (8).jpg
+exp/in_images/asahi (8).jpg: Predicted in 19.225000 milli-seconds.
+ASAHI: 70%
+End
+Start processing exp/in_images/kronenbourg (7).jpg
+exp/in_images/kronenbourg (7).jpg: Predicted in 19.288000 milli-seconds.
+KRONENBOURG: 100%
+End
+Start processing exp/in_images/kronenbourg (1).jpg
+exp/in_images/kronenbourg (1).jpg: Predicted in 19.218000 milli-seconds.
+KRONENBOURG: 91%
+End
+Start processing exp/in_images/asahi (14).jpg
+exp/in_images/asahi (14).jpg: Predicted in 19.376000 milli-seconds.
+ASAHI: 81%
+ASAHI: 42%
+End
+Start processing exp/in_images/hoegaarden (14).jpg
+exp/in_images/hoegaarden (14).jpg: Predicted in 19.195000 milli-seconds.
+HOEGAARDEN: 89%
+End
+Start processing exp/in_images/hoegaarden (7).jpg
+exp/in_images/hoegaarden (7).jpg: Predicted in 19.235000 milli-seconds.
+HOEGAARDEN: 90%
+End
+Start processing exp/in_images/heineken (7).jpg
+exp/in_images/heineken (7).jpg: Predicted in 19.249000 milli-seconds.
+End
+Start processing exp/in_images/kirin (11).jpg
+exp/in_images/kirin (11).jpg: Predicted in 19.412000 milli-seconds.
+KIRIN_ICHIBAN: 93%
+KIRIN_ICHIBAN: 34%
+HOEGAARDEN: 27%
+End
+Start processing exp/in_images/terra (10).jpg
+exp/in_images/terra (10).jpg: Predicted in 19.324000 milli-seconds.
+TERRA: 95%
+TERRA: 30%
+TERRA: 84%
+TERRA: 36%
+TERRA: 65%
+TERRA: 80%
+End
+Start processing exp/in_images/heineken (13).jpg
+exp/in_images/heineken (13).jpg: Predicted in 19.238000 milli-seconds.
+HEINEKEN: 33%
+HEINEKEN: 31%
+End
+Start processing exp/in_images/hite (13).jpg
+exp/in_images/hite (13).jpg: Predicted in 20.216000 milli-seconds.
+HITE_EXTRACOLD: 100%
+End
+Start processing exp/in_images/terra (5).jpg
+exp/in_images/terra (5).jpg: Predicted in 19.042000 milli-seconds.
+TERRA: 92%
+End
+Start processing exp/in_images/asahi (7).jpg
+exp/in_images/asahi (7).jpg: Predicted in 19.179000 milli-seconds.
+ASAHI: 50%
+End
+Start processing exp/in_images/hoegaarden (6).jpg
+exp/in_images/hoegaarden (6).jpg: Predicted in 19.244000 milli-seconds.
+HOEGAARDEN: 83%
+CASS: 83%
+HOEGAARDEN: 42%
+End
+Start processing exp/in_images/sapporo (4).jpg
+exp/in_images/sapporo (4).jpg: Predicted in 19.233000 milli-seconds.
+SAPPORO: 100%
+End
+Start processing exp/in_images/budweiser (15).jpg
+exp/in_images/budweiser (15).jpg: Predicted in 19.297000 milli-seconds.
+BUDWEISSER: 72%
+BUDWEISSER: 72%
+End
+Start processing exp/in_images/terra (17).jpg
+exp/in_images/terra (17).jpg: Predicted in 19.312000 milli-seconds.
+TERRA: 28%
+TERRA: 57%
+End
+Start processing exp/in_images/asahi (20).jpg
+exp/in_images/asahi (20).jpg: Predicted in 19.137000 milli-seconds.
+ASAHI: 94%
+End
+Start processing exp/in_images/heineken (11).jpg
+exp/in_images/heineken (11).jpg: Predicted in 19.272000 milli-seconds.
+HEINEKEN: 81%
+KRONENBOURG: 98%
+End
+Start processing exp/in_images/cass (4).jpg
+exp/in_images/cass (4).jpg: Predicted in 19.288000 milli-seconds.
+End
+Start processing exp/in_images/kirin (16).jpg
+exp/in_images/kirin (16).jpg: Predicted in 19.173000 milli-seconds.
+KIRIN_ICHIBAN: 82%
+End
+Start processing exp/in_images/kirin (15).jpg
+exp/in_images/kirin (15).jpg: Predicted in 19.159000 milli-seconds.
+KIRIN_ICHIBAN: 73%
+KIRIN_ICHIBAN: 88%
+End
+Start processing exp/in_images/kronenbourg (12).jpg
+exp/in_images/kronenbourg (12).jpg: Predicted in 19.214000 milli-seconds.
+KRONENBOURG: 100%
+End
+Start processing exp/in_images/hoegaarden (10).jpg
+exp/in_images/hoegaarden (10).jpg: Predicted in 19.183000 milli-seconds.
+HOEGAARDEN: 82%
+HOEGAARDEN: 48%
+HOEGAARDEN: 59%
+End
+Start processing exp/in_images/budweiser (10).jpg
+exp/in_images/budweiser (10).jpg: Predicted in 19.236000 milli-seconds.
+BUDWEISSER: 85%
+BUDWEISSER: 94%
+BUDWEISSER: 64%
+End
+Start processing exp/in_images/sapporo (13).jpg
+exp/in_images/sapporo (13).jpg: Predicted in 19.185000 milli-seconds.
+SAPPORO: 90%
+End
+Start processing exp/in_images/heineken (4).jpg
+exp/in_images/heineken (4).jpg: Predicted in 19.118000 milli-seconds.
+HEINEKEN: 99%
+End
+Start processing exp/in_images/hoegaarden (20).jpg
+exp/in_images/hoegaarden (20).jpg: Predicted in 19.396000 milli-seconds.
+HOEGAARDEN: 99%
+End
+Start processing exp/in_images/heineken (2).jpg
+exp/in_images/heineken (2).jpg: Predicted in 19.263000 milli-seconds.
+HEINEKEN: 34%
+HEINEKEN: 26%
+HEINEKEN: 95%
+End
+Start processing exp/in_images/asahi (9).jpg
+exp/in_images/asahi (9).jpg: Predicted in 19.203000 milli-seconds.
+ASAHI: 94%
+End
+Start processing exp/in_images/kirin (2).jpg
+exp/in_images/kirin (2).jpg: Predicted in 19.462000 milli-seconds.
+KIRIN_ICHIBAN: 100%
+End
+Start processing exp/in_images/sapporo (15).jpg
+exp/in_images/sapporo (15).jpg: Predicted in 19.200000 milli-seconds.
+SAPPORO: 91%
+End
+Start processing exp/in_images/terra (13).jpg
+exp/in_images/terra (13).jpg: Predicted in 19.208000 milli-seconds.
+TERRA: 98%
+End
+Start processing exp/in_images/cass (10).jpg
+exp/in_images/cass (10).jpg: Predicted in 20.358000 milli-seconds.
+CASS: 39%
+End
+Start processing exp/in_images/hoegaarden (2).jpg
+exp/in_images/hoegaarden (2).jpg: Predicted in 19.222000 milli-seconds.
+HOEGAARDEN: 95%
+BUDWEISSER: 83%
+End
+Start processing exp/in_images/hoegaarden (13).jpg
+exp/in_images/hoegaarden (13).jpg: Predicted in 19.073000 milli-seconds.
+KRONENBOURG: 97%
+HOEGAARDEN: 76%
+End
+Start processing exp/in_images/terra (4).jpg
+exp/in_images/terra (4).jpg: Predicted in 19.298000 milli-seconds.
+TERRA: 97%
+End
+Start processing exp/in_images/kronenbourg (5).jpg
+exp/in_images/kronenbourg (5).jpg: Predicted in 19.199000 milli-seconds.
+KRONENBOURG: 43%
+End
+Start processing exp/in_images/hite (16).jpg
+exp/in_images/hite (16).jpg: Predicted in 19.180000 milli-seconds.
+HITE_EXTRACOLD: 96%
+End
+Start processing exp/in_images/hite (11).jpg
+exp/in_images/hite (11).jpg: Predicted in 19.219000 milli-seconds.
+HITE_EXTRACOLD: 53%
+End
+Start processing exp/in_images/kronenbourg (15).jpg
+exp/in_images/kronenbourg (15).jpg: Predicted in 19.126000 milli-seconds.
+KRONENBOURG: 96%
+KRONENBOURG: 96%
+End
+Start processing exp/in_images/asahi (19).jpg
+exp/in_images/asahi (19).jpg: Predicted in 19.201000 milli-seconds.
+ASAHI: 40%
+End
+Start processing exp/in_images/asahi (18).jpg
+exp/in_images/asahi (18).jpg: Predicted in 19.260000 milli-seconds.
+End
+Start processing exp/in_images/heineken (9).jpg
+exp/in_images/heineken (9).jpg: Predicted in 19.234000 milli-seconds.
+HEINEKEN: 72%
+HEINEKEN: 96%
+HEINEKEN: 99%
+End
+Start processing exp/in_images/terra (14).jpg
+exp/in_images/terra (14).jpg: Predicted in 19.221000 milli-seconds.
+TERRA: 99%
+TERRA: 87%
+End
+Start processing exp/in_images/kronenbourg (8).jpg
+exp/in_images/kronenbourg (8).jpg: Predicted in 19.370000 milli-seconds.
+KRONENBOURG: 84%
+End
+Start processing exp/in_images/hite (8).jpg
+exp/in_images/hite (8).jpg: Predicted in 19.365000 milli-seconds.
+KIRIN_ICHIBAN: 100%
+End
+Start processing exp/in_images/hoegaarden (1).jpg
+exp/in_images/hoegaarden (1).jpg: Predicted in 19.115000 milli-seconds.
+HOEGAARDEN: 98%
+CASS: 34%
+End
+Start processing exp/in_images/budweiser (17).jpg
+exp/in_images/budweiser (17).jpg: Predicted in 19.404000 milli-seconds.
+BUDWEISSER: 65%
+BUDWEISSER: 87%
+End
+Start processing exp/in_images/hite (19).jpg
+exp/in_images/hite (19).jpg: Predicted in 19.310000 milli-seconds.
+HITE_EXTRACOLD: 84%
+HITE_EXTRACOLD: 55%
+End
+Start processing exp/in_images/budweiser (9).jpg
+exp/in_images/budweiser (9).jpg: Predicted in 19.200000 milli-seconds.
+BUDWEISSER: 76%
+End
+Start processing exp/in_images/kirin (13).jpg
+exp/in_images/kirin (13).jpg: Predicted in 19.166000 milli-seconds.
+ASAHI: 98%
+KIRIN_ICHIBAN: 99%
+End
+Start processing exp/in_images/sapporo (18).jpg
+exp/in_images/sapporo (18).jpg: Predicted in 19.267000 milli-seconds.
+SAPPORO: 95%
+End
+Start processing exp/in_images/kronenbourg (13).jpg
+exp/in_images/kronenbourg (13).jpg: Predicted in 19.075000 milli-seconds.
+KRONENBOURG: 95%
+End
+Start processing exp/in_images/hite (3).jpg
+exp/in_images/hite (3).jpg: Predicted in 19.274000 milli-seconds.
+HITE_EXTRACOLD: 75%
+HITE_EXTRACOLD: 35%
+End
+Start processing exp/in_images/asahi (6).jpg
+exp/in_images/asahi (6).jpg: Predicted in 19.187000 milli-seconds.
+ASAHI: 95%
+End
+Start processing exp/in_images/budweiser (3).jpg
+exp/in_images/budweiser (3).jpg: Predicted in 19.378000 milli-seconds.
+BUDWEISSER: 97%
+End
+Start processing exp/in_images/sapporo (8).jpg
+exp/in_images/sapporo (8).jpg: Predicted in 19.242000 milli-seconds.
+SAPPORO: 87%
+End
+Start processing exp/in_images/cass (13).jpg
+exp/in_images/cass (13).jpg: Predicted in 19.112000 milli-seconds.
+CASS: 69%
+End
+Start processing exp/in_images/sapporo (11).jpg
+exp/in_images/sapporo (11).jpg: Predicted in 19.226000 milli-seconds.
+End
+Start processing exp/in_images/terra (16).jpg
+exp/in_images/terra (16).jpg: Predicted in 19.210000 milli-seconds.
+TERRA: 96%
+TERRA: 43%
+TERRA: 96%
+TERRA: 42%
+TERRA: 83%
+TERRA: 80%
+TERRA: 31%
+TERRA: 85%
+TERRA: 96%
+TERRA: 79%
+TERRA: 35%
+TERRA: 60%
+TERRA: 44%
+TERRA: 31%
+TERRA: 53%
+TERRA: 85%
+TERRA: 44%
+TERRA: 25%
+End
+Start processing exp/in_images/terra (18).jpg
+exp/in_images/terra (18).jpg: Predicted in 19.038000 milli-seconds.
+TERRA: 88%
+End
+Start processing exp/in_images/budweiser (19).jpg
+exp/in_images/budweiser (19).jpg: Predicted in 19.242000 milli-seconds.
+BUDWEISSER: 94%
+BUDWEISSER: 61%
+End
+Start processing exp/in_images/hite (5).jpg
+exp/in_images/hite (5).jpg: Predicted in 19.161000 milli-seconds.
+CASS: 73%
+End
+Start processing exp/in_images/hite (20).jpg
+exp/in_images/hite (20).jpg: Predicted in 19.152000 milli-seconds.
+HITE_EXTRACOLD: 94%
+HITE_EXTRACOLD: 71%
+HITE_EXTRACOLD: 86%
+End
+Start processing exp/in_images/sapporo (9).jpg
+exp/in_images/sapporo (9).jpg: Predicted in 19.090000 milli-seconds.
+SAPPORO: 88%
+End
+Start processing exp/in_images/hite (14).jpg
+exp/in_images/hite (14).jpg: Predicted in 19.159000 milli-seconds.
+HITE_EXTRACOLD: 95%
+HITE_EXTRACOLD: 79%
+End
+Start processing exp/in_images/budweiser (8).jpg
+exp/in_images/budweiser (8).jpg: Predicted in 19.227000 milli-seconds.
+BUDWEISSER: 96%
+BUDWEISSER: 45%
+End
+Start processing exp/in_images/sapporo (1).jpg
+exp/in_images/sapporo (1).jpg: Predicted in 19.140000 milli-seconds.
+SAPPORO: 98%
+SAPPORO: 54%
+End
+Start processing exp/in_images/budweiser (11).jpg
+exp/in_images/budweiser (11).jpg: Predicted in 19.195000 milli-seconds.
+BUDWEISSER: 96%
+End
+Start processing exp/in_images/terra (15).jpg
+exp/in_images/terra (15).jpg: Predicted in 19.328000 milli-seconds.
+CASS: 35%
+TERRA: 99%
+End
+Start processing exp/in_images/hite (7).jpg
+exp/in_images/hite (7).jpg: Predicted in 19.200000 milli-seconds.
+CASS: 68%
+End
+Start processing exp/in_images/budweiser (6).jpg
+exp/in_images/budweiser (6).jpg: Predicted in 19.123000 milli-seconds.
+BUDWEISSER: 92%
+End
+Start processing exp/in_images/hite (9).jpg
+exp/in_images/hite (9).jpg: Predicted in 19.161000 milli-seconds.
+HITE_EXTRACOLD: 89%
+End
+Start processing exp/in_images/cass (6).jpg
+exp/in_images/cass (6).jpg: Predicted in 19.108000 milli-seconds.
+CASS: 83%
+End
+Start processing exp/in_images/kronenbourg (4).jpg
+exp/in_images/kronenbourg (4).jpg: Predicted in 19.414000 milli-seconds.
+KRONENBOURG: 78%
+End
+Start processing exp/in_images/budweiser (18).jpg
+exp/in_images/budweiser (18).jpg: Predicted in 19.228000 milli-seconds.
+End
+Start processing exp/in_images/budweiser (14).jpg
+exp/in_images/budweiser (14).jpg: Predicted in 19.049000 milli-seconds.
+BUDWEISSER: 86%
+End
+Start processing exp/in_images/kronenbourg (18).jpg
+exp/in_images/kronenbourg (18).jpg: Predicted in 19.199000 milli-seconds.
+KRONENBOURG: 53%
+SAPPORO: 31%
+End
+Start processing exp/in_images/terra (7).jpg
+exp/in_images/terra (7).jpg: Predicted in 19.350000 milli-seconds.
+TERRA: 92%
+TERRA: 97%
+CASS: 56%
+End
+Start processing exp/in_images/terra (2).jpg
+exp/in_images/terra (2).jpg: Predicted in 19.306000 milli-seconds.
+TERRA: 98%
+End
+Start processing exp/in_images/sapporo (17).jpg
+exp/in_images/sapporo (17).jpg: Predicted in 19.285000 milli-seconds.
+SAPPORO: 98%
+End
+Start processing exp/in_images/heineken (1).jpg
+exp/in_images/heineken (1).jpg: Predicted in 19.240000 milli-seconds.
+HEINEKEN: 34%
+End
+Start processing exp/in_images/kirin (20).jpg
+exp/in_images/kirin (20).jpg: Predicted in 19.332000 milli-seconds.
+KIRIN_ICHIBAN: 87%
+End
+Start processing exp/in_images/kirin (4).jpg
+exp/in_images/kirin (4).jpg: Predicted in 19.231000 milli-seconds.
+KIRIN_ICHIBAN: 34%
+KIRIN_ICHIBAN: 34%
+KIRIN_ICHIBAN: 40%
+End
+Start processing exp/in_images/kronenbourg (9).jpg
+exp/in_images/kronenbourg (9).jpg: Predicted in 19.190000 milli-seconds.
+KRONENBOURG: 96%
+End
+Start processing exp/in_images/heineken (18).jpg
+exp/in_images/heineken (18).jpg: Predicted in 19.142000 milli-seconds.
+HEINEKEN: 95%
+End
+Start processing exp/in_images/terra (6).jpg
+exp/in_images/terra (6).jpg: Predicted in 19.190000 milli-seconds.
+TERRA: 97%
+TERRA: 92%
+End
+Start processing exp/in_images/hoegaarden (17).jpg
+exp/in_images/hoegaarden (17).jpg: Predicted in 19.280000 milli-seconds.
+HOEGAARDEN: 87%
+End
+Start processing exp/in_images/cass (14).jpg
+exp/in_images/cass (14).jpg: Predicted in 19.178000 milli-seconds.
+CASS: 93%
+End
+Start processing exp/in_images/heineken (3).jpg
+exp/in_images/heineken (3).jpg: Predicted in 19.088000 milli-seconds.
+HOEGAARDEN: 77%
+HOEGAARDEN: 80%
+HOEGAARDEN: 73%
+End
+Start processing exp/in_images/kirin (12).jpg
+exp/in_images/kirin (12).jpg: Predicted in 19.254000 milli-seconds.
+KIRIN_ICHIBAN: 76%
+KIRIN_ICHIBAN: 59%
+End
