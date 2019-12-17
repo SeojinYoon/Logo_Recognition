@@ -1,0 +1,228 @@
+name, count
+asahi (1), asahi 1
+asahi (2), asahi 7
+asahi (3), asahi 1
+asahi (4), asahi 1
+asahi (5), asahi 1
+asahi (6), asahi 1
+asahi (7), asahi 1
+asahi (8), asahi 1
+asahi (9), asahi 1
+asahi (10), asahi 2
+asahi (11), asahi 1
+asahi (12), asahi 1
+asahi (13), asahi 1
+asahi (14), asahi 2
+asahi (15), asahi 2
+asahi (16), asahi 2
+asahi (17), asahi 1
+asahi (18), asahi 1
+asahi (19), asahi 1
+asahi (20), asahi 1
+budweiser (1), budweiser 1
+budweiser (2), budweiser 1
+budweiser (3), budweiser 1
+budweiser (4), budweiser 5
+budweiser (5), budweiser 2
+budweiser (6), budweiser 1
+budweiser (7), budweiser 1
+budweiser (8), budweiser 1
+budweiser (9), budweiser 1
+budweiser (10), budweiser 5
+budweiser (11), budweiser 1
+budweiser (12), budweiser 1
+budweiser (13), budweiser 1
+budweiser (14), budweiser 1
+budweiser (15), budweiser 2
+budweiser (16), budweiser 3
+budweiser (17), budweiser 1
+budweiser (18), budweiser 5
+budweiser (19), budweiser 1
+budweiser (20), budweiser 1
+cass (1), cass 2
+cass (2), cass 1
+cass (3), cass 2
+cass (4), cass 4
+cass (5), cass 1
+cass (6), cass 1
+cass (7), cass 2
+cass (8), cass 1
+cass (9), cass 1
+cass (10), cass 2
+cass (11), cass 14
+cass (12), cass 1
+cass (13), cass 1
+cass (14), cass 1
+cass (15), cass 1
+cass (16), cass 1
+cass (17), cass 3
+cass (18), cass 3
+cass (19), cass 1
+cass (20), cass 1
+heineken (1), heineken 4
+heineken (2), heineken 4
+heineken (3), heineken 2, hoegaarden 3
+heineken (4), heineken 1
+heineken (5), heineken 2, hoegaarden 1
+heineken (6), heineken 1
+heineken (7), heineken 2
+heineken (8), heineken 1
+heineken (9), heineken 3
+heineken (10), heineken 2
+heineken (11), heineken 1, kronenbourg 1
+heineken (12), heineken 1
+heineken (13), heineken 3
+heineken (14), heineken 6, kirin ichiban 4
+heineken (15), heineken 2
+heineken (16), heineken 4
+heineken (17), heineken 2
+heineken (18), heineken 1
+heineken (19), heineken 1
+heineken (20), heineken 2
+hite (1), hite 1
+hite (2), hite 1
+hite (3), hite 2
+hite (4), hite 1
+hite (5), hite 1
+hite (6), hite 2
+hite (7), hite 1
+hite (8), hite 2, kirin ichiban 1
+hite (9), hite 1
+hite (10), hite 1
+hite (11), hite 1
+hite (12), hite 6, hoegaarden 2
+hite (13), hite 1
+hite (14), hite 2
+hite (15), hite 5
+hite (16), hite 2
+hite (17), hite 3
+hite (18), hite 4
+hite (19), hite 3
+hite (20), hite 3
+hoegaarden (1), hoegaardent 1
+hoegaarden (2), hoegaardent 1, budweiser 1
+hoegaarden (3), hoegaardent 3, heineken 2
+hoegaarden (4), hoegaardent 2
+hoegaarden (5), hoegaardent 1
+hoegaarden (6), hoegaardent 2
+hoegaarden (7), hoegaardent 1
+hoegaarden (8), hoegaardent 1
+hoegaarden (9), hoegaardent 1
+hoegaarden (10), hoegaardent 6
+hoegaarden (11), hoegaardent 1
+hoegaarden (12), hoegaardent 1
+hoegaarden (13), hoegaardent 1, kronenbourg 1
+hoegaarden (14), hoegaardent 1
+hoegaarden (15), hoegaardent 1
+hoegaarden (16), hoegaardent 1
+hoegaarden (17), hoegaardent 1
+hoegaarden (18), hoegaardent 1
+hoegaarden (19), hoegaardent 1
+hoegaarden (20), hoegaardent 1
+kirin ichiban (1), kirin ichiban 1
+kirin ichiban (2), kirin ichiban 1
+kirin ichiban (3), kirin ichiban 1
+kirin ichiban (4), kirin ichiban 6
+kirin ichiban (5), kirin ichiban 1
+kirin ichiban (6), kirin ichiban 1
+kirin ichiban (7), kirin ichiban 2
+kirin ichiban (8), kirin ichiban 1
+kirin ichiban (9), kirin ichiban 4
+kirin ichiban (10), kirin ichiban 1
+kirin ichiban (11), kirin ichiban 2
+kirin ichiban (12), kirin ichiban 2
+kirin ichiban (13), kirin ichiban 1, asahi 1
+kirin ichiban (14), kirin ichiban 1
+kirin ichiban (15), kirin ichiban 2
+kirin ichiban (16), kirin ichiban 1
+kirin ichiban (17), kirin ichiban 1
+kirin ichiban (18), kirin ichiban 1, asahi 1
+kirin ichiban (19), kirin ichiban 3
+kirin ichiban (20), kirin ichiban 1
+kronenbourg (1), kronenbourg 1
+kronenbourg (2), kronenbourg 1, cass 1
+kronenbourg (3), kronenbourg 1
+kronenbourg (4), kronenbourg 1
+kronenbourg (5), kronenbourg 1
+kronenbourg (6), kronenbourg 1
+kronenbourg (7), kronenbourg 1
+kronenbourg (8), kronenbourg 1
+kronenbourg (9), kronenbourg 1
+kronenbourg (10), kronenbourg 1
+kronenbourg (11), kronenbourg 1
+kronenbourg (12), kronenbourg 1
+kronenbourg (13), kronenbourg 1
+kronenbourg (14), kronenbourg 1
+kronenbourg (15), kronenbourg 2
+kronenbourg (16), kronenbourg 1
+kronenbourg (17), kronenbourg 4
+kronenbourg (18), kronenbourg 1
+kronenbourg (19), kronenbourg 1
+kronenbourg (20), kronenbourg 1
+sapporo (1), sapporo 3	
+sapporo (2), sapporo 1
+sapporo (3), sapporo 1
+sapporo (4), sapporo 1
+sapporo (5), sapporo 1
+sapporo (6), sapporo 1
+sapporo (7), sapporo 1
+sapporo (8), sapporo 1
+sapporo (9), sapporo 1
+sapporo (10), sapporo 1
+sapporo (11), sapporo 1
+sapporo (12), sapporo 1
+sapporo (13), sapporo 1
+sapporo (14), sapporo 1
+sapporo (15), sapporo 1
+sapporo (16), sapporo 1
+sapporo (17), sapporo 1
+sapporo (18), sapporo 1
+sapporo (19), sapporo 1
+sapporo (20), sapporo 1
+terra (1), terra 1
+terra (2), terra 1
+terra (3), terra 2
+terra (4), terra 1
+terra (5), terra 1
+terra (6), terra 2
+terra (7), terra 2
+terra (8), terra 1
+terra (9), terra 2
+terra (10), terra 6
+terra (11), terra 2
+terra (12), terra 1
+terra (13), terra 1
+terra (14), terra 2
+terra (15), terra 1
+terra (16), terra 38
+terra (17), terra 4
+terra (18), terra 1
+terra (19), terra 1
+terra (20), terra 23
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
