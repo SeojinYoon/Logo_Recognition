@@ -1,0 +1,65 @@
+Total BFLOPS 65.355 
+
+ seen 64 
+folder input=exp/in_images/ and output=exp/out_images/
+Start processing exp/in_images/none (5).jpg
+exp/in_images/none (5).jpg: Predicted in 43.831000 milli-seconds.
+End
+Start processing exp/in_images/none (12).jpg
+exp/in_images/none (12).jpg: Predicted in 44.054000 milli-seconds.
+End
+Start processing exp/in_images/none (7).jpg
+exp/in_images/none (7).jpg: Predicted in 43.929000 milli-seconds.
+End
+Start processing exp/in_images/none (14).jpg
+exp/in_images/none (14).jpg: Predicted in 44.080000 milli-seconds.
+End
+Start processing exp/in_images/none (4).jpg
+exp/in_images/none (4).jpg: Predicted in 43.834000 milli-seconds.
+End
+Start processing exp/in_images/none (8).jpg
+exp/in_images/none (8).jpg: Predicted in 44.100000 milli-seconds.
+End
+Start processing exp/in_images/none (10).jpg
+exp/in_images/none (10).jpg: Predicted in 44.014000 milli-seconds.
+End
+Start processing exp/in_images/none (9).jpg
+exp/in_images/none (9).jpg: Predicted in 44.097000 milli-seconds.
+KRONENBOURG: 26%
+End
+Start processing exp/in_images/none (19).jpg
+exp/in_images/none (19).jpg: Predicted in 44.134000 milli-seconds.
+End
+Start processing exp/in_images/none (11).jpg
+exp/in_images/none (11).jpg: Predicted in 43.976000 milli-seconds.
+End
+Start processing exp/in_images/none (20).jpg
+exp/in_images/none (20).jpg: Predicted in 43.838000 milli-seconds.
+End
+Start processing exp/in_images/none (18).jpg
+exp/in_images/none (18).jpg: Predicted in 43.901000 milli-seconds.
+End
+Start processing exp/in_images/none (6).jpg
+exp/in_images/none (6).jpg: Predicted in 43.841000 milli-seconds.
+End
+Start processing exp/in_images/none (3).jpg
+exp/in_images/none (3).jpg: Predicted in 44.054000 milli-seconds.
+End
+Start processing exp/in_images/none (15).jpg
+exp/in_images/none (15).jpg: Predicted in 44.033000 milli-seconds.
+End
+Start processing exp/in_images/none (16).jpg
+exp/in_images/none (16).jpg: Predicted in 44.286000 milli-seconds.
+End
+Start processing exp/in_images/none (17).jpg
+exp/in_images/none (17).jpg: Predicted in 43.835000 milli-seconds.
+End
+Start processing exp/in_images/none (13).jpg
+exp/in_images/none (13).jpg: Predicted in 44.041000 milli-seconds.
+End
+Start processing exp/in_images/none (1).jpg
+exp/in_images/none (1).jpg: Predicted in 43.986000 milli-seconds.
+End
+Start processing exp/in_images/none (2).jpg
+exp/in_images/none (2).jpg: Predicted in 44.024000 milli-seconds.
+End
