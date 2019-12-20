@@ -1,0 +1,19 @@
+* 로컬 (자기 컴퓨터에서 python 으로 mask rcnn 실행) 에서 실행할 경우
+1. C 드라이브 안에 data 라는 폴더를 만들어서 data 라는 폴더안에 압축을 푼 폴더 ( Mask_Rcnn (colab) ) 넣기 (C:\data\Mask_Rcnn (colab) 이런식의 경로가 되어야 함)
+
+2. samples 이라는 폴더 안에 있는 mask_rcnn_logo_6000_(yolo_convert_6600) 파일과 mask_rcnn_logo_20000_(yolo_convert_6600) 파일을 압축 풀기
+
+3. 압축을 푼 폴더 ( Mask_Rcnn (colab) ) 안에 있는 mask_r_cnn.py 스크립트 파일을 python (spyder) 으로 열어서 순서대로 실행
+
+* colab 에서 실행할 경우
+1. 압축을 푼 폴더를 구글 드라이브에 있는 Colab Notebooks 폴더에 넣기 (/content/drive/My Drive/Colab Notebooks/Mask_Rcnn (colab) 이런식의 경로가 되어야 함) (압축을 푼 채로 폴더를 올려야함)
+
+2. samples 이라는 폴더 안에 있는 mask_rcnn_logo_6000_(yolo_convert_6600) 파일과 mask_rcnn_logo_20000_(yolo_convert_6600) 파일을 압축 풀기
+
+3. 압축을 푼 폴더 ( Mask_Rcnn (colab) ) 안에 있는 mask_r_cnn.ipynb 스크립트 파일을 구글 드라이브에서 colab 으로 열어서 순서대로 실행
+
+* data 를 training 하는 경우
+1. 압축을 푼 폴더를 구글 드라이브에 있는 Colab Notebooks 폴더에 넣기 (/content/drive/My Drive/Colab Notebooks/Mask_Rcnn (colab) 이런식의 경로가 되어야 함) (압축을 푼 채로 폴더를 올려야함)
+
+2. 압축을 푼 폴더 ( Mask_Rcnn (colab) ) 안에 있는 mask_rcnn_logo_training (colab) 파일을 원하는 옵션으로 순서대로 실행하여 training 진행
+
