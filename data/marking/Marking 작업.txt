@@ -1,5 +1,11 @@
 <Marking>
+	<Mask RCNN>
+	Mask RCNN은 via-2.0.8을 이용하여 작업하였음
+	- via-2.0.8을 통해 작업한 내용은 .json 파일로 저장됨
+		<특이사항>
+		via_region_data (폴리곤 약 2300개): Polygon을 직접 친것
+		via_region_data(YOLO_RECT_변환): YOLO Training 데이터 셋을 변환한것(사각형)
 
-Mask RCNN은 via-2.0.8을 이용하여 작업하였음
-
-YOLO는 YOLO-MARKER를 이용하여 작업하였음 -> https://github.com/AlexeyAB/Yolo_mark
+	<YOLO>
+	YOLO는 YOLO-MARKER를 이용하여 작업하였음 -> https://github.com/AlexeyAB/Yolo_mark
+	- YOLO-MARKER를 통해 작업한 내용은 .txt 파일로 저장됨
